@@ -8,7 +8,8 @@
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
     "pg": "^8.8.0",
-    "strapi-plugin-meilisearch": "^0.8.2"
+    "strapi-plugin-meilisearch": "^0.8.2",
+    "strapi-provider-upload-cloudinary": "^3.6.11"
   },
   "name": "backend",
   "private": true,
