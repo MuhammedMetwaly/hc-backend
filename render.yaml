@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi-staging
+    name: strapi
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
@@ -11,7 +11,7 @@ services:
       - key: NODE_VERSION
         value: ~16.13.0
       - key: NODE_ENV
-        value: staging
+        value: production
       - key: CLOUDINARY_NAME
         sync: false
       - key: CLOUDINARY_KEY
