@@ -19,7 +19,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
+    "build": "yarn build",
     "strapi": "strapi"
   },
   "author": {
