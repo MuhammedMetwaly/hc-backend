@@ -19,7 +19,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
+    "build": "strapi build --ignore-engines",
     "strapi": "strapi"
   },
   "author": {
