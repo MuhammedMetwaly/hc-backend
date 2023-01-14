@@ -19,6 +19,9 @@ services:
       - key: CLOUDINARY_SECRET
         sync: false
       - key: DATABASE_URL
+        value: postgres://pos_db_u454_user:DkWVN7XtUEFkEy7xAESCtoAtvBkfWKjn@dpg-cf1a9sen6mpkr6adta60-a.oregon-postgres.render.com/pos_db_u454
+          name: strapi
+          property: connectionString
         fromDatabase:
           name: strapi
           property: connectionString
