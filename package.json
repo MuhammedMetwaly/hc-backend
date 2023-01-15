@@ -3,7 +3,7 @@
     "@parvineyvazov/json-translator": "^1.5.0",
     "@strapi/plugin-graphql": "^4.0.0",
     "@strapi/plugin-i18n": "4.5.6",
-    "@strapi/plugin-users-permissions": "4.5.5",
+    "@strapi/plugin-users-permissions": "4.5.6",
     "@strapi/provider-upload-cloudinary": "^4.5.6",
     "@strapi/strapi": "4.5.6",
     "better-sqlite3": "7.4.6",
